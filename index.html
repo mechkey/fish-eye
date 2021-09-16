@@ -3,13 +3,15 @@
 <head>
 	<META http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 	<link rel="stylesheet" href="styles.css">
+	<script src="scripts.js"></script>
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 	</style>
 </head>
 <body>
 	<div id="banner">
-		<img id=top-image src="img/banner-bg.jpg">
+		<img id=top-image src="img/banner-bg.jpg"> 
+		<!-- This image should be in the CSS for media queries selection of relevant background, but I cannot get it to work--> 
 		<div id=top-text>
 			<br>
 			<img src="img/party-icon.svg" height="50" style="margin:15%; margin-bottom:0">
@@ -28,11 +30,26 @@
 			<div class="flex-item"> <img src="img/prod-TN-2.jpg" height="200">14ft Salta Black Round Comfort Edition Trampoline with Enclosure</div>
 			<div class="flex-item">Subtotal 1318.00 Delivery FREE Next Working Day(if ordered before 3pm)</div>
 			<div class="flex-item">Total £1318.00</div>
-			<div class="flex-item" id="payment-method">5 You paid using Mastercard <img src="img/card-icon.svg" height="40" align="middle"> </div>
+			<div class="flex-item" id="payment-method">You paid using Mastercard<img src="img/card-icon.svg" height="40" align="middle"> </div>
 		</div>
 	</div>
 	<div id="footer">
-		<p>Subscribe For The Latest Offers<button id="sub">Subscribe</button></p>
+		<p>Subscribe For The Latest Offers
+  		<button id="sub">Subscribe</button></p>
+			<!-- The Modal -->
+		<div id="myModal" class="modal">
+		    <!-- Modal content -->
+		    <div class="modal-content">
+			    <span class="close">&times;</span>
+			    <form action="no_action.php">
+		        	<label for="fname">First Name</label>
+		    		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+		    		<label for="email">Last Name</label>
+			    	<input type="email" id="email" name="email" placeholder="Your email address.."> 
+			    	<input type="submit" value="Submit">
+			    </form>
+		  	</div>
+		</div>
 	</div>
 </body>
 </html>

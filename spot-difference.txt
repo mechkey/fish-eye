@@ -1,0 +1,16 @@
+
+top-left: 0% Finance available font is different
+Top-right: missing currency button
+Top-middle: search bar - "start entire store here"
+top-middle: quad-picture 'slideshow' current picture indicator is non-functional
+top-middle: the quad 'shop now' button is rectangular, rather than rounded rectangle
+top-middle: 'Range Rover Style Mini HSE font is different.
+middle-right: 'Battery powered waltzer car is missing the light-blue zig-zags
+lower-right: a-z of brands is now white text on blue background, making it stand out
+Our Story: second paragraph is not about parenting/family/kids
+payment options:paypal creidt, apple pay, and amazon pay are missing
+socials: facebook button is missing
+bottom-center: 'get offers & news' is not capitalised
+bottom-center: TrustPilot logo missing
+bottom-right: help button does not stand out as it is no longer green
+Resolution and file sizes are smaller
